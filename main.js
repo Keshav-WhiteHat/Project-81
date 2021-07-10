@@ -1,5 +1,5 @@
 canvas1 = document.getElementById("myCanvas");
-ctx= canvas1.getContext("webgl");
+ctx= canvas1.getContext("2d");
 
 ctx.beginPath();
 ctx.strokeStyle ="grey";
